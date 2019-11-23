@@ -1,0 +1,50 @@
+[
+    {
+        "name": 1,
+        "id": 123456780,
+        "hwKey": 1,
+        "charge": 10,
+        "isGPSEnabled": true,
+        "mileage": 1000
+    },
+    {
+        "name": 2,
+        "id": 123456781,
+        "hwKey": 2,
+        "charge": 20,
+        "isGPSEnabled": true,
+        "mileage": 2000
+    },
+    {
+        "name": 3,
+        "id": 123456782,
+        "hwKey": 3,
+        "charge": 30,
+        "isGPSEnabled": false,
+        "mileage": 3000
+    },
+    {
+        "name": 4,
+        "id": 123456783,
+        "hwKey": 4,
+        "charge": 40,
+        "isGPSEnabled": true,
+        "mileage": 4000
+    },
+    {
+        "name": 5,
+        "id": 123456784,
+        "hwKey": 5,
+        "charge": 50,
+        "isGPSEnabled": true,
+        "mileage": 5000
+    },
+    {
+        "name": 6,
+        "id": 123456785,
+        "hwKey": 6,
+        "charge": 60,
+        "isGPSEnabled": false,
+        "mileage": 6000
+    }
+]
