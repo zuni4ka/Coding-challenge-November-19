@@ -84,7 +84,7 @@ class App extends React.Component {
                         <div className="table-cell" role="cell">{device.id}</div>
                         <div className="table-cell" role="cell">{device.hwKey}</div>
                         <div className="table-cell" role="cell">{`${device.charge}%`}</div>
-                        <div className="table-cell" role="cell">{device.isGPSEnabled ? 'On' : 'Off'}</div>
+                        <div className="table-cell" role="cell">{device.GPS ? 'On' : 'Off'}</div>
                         <div className="table-cell" role="cell">{device.mileage}</div>
                         <div className="table-cell" role="cell">
                           <Link
