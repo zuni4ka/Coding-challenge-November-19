@@ -16,44 +16,46 @@ class Device extends React.Component {
                 <div className="edit-device-container">
                     <div className="cotrol-panel-container">
                         <h1 className="device-name">{`Device ${device.name}`}</h1>
-                        <dl>
-                            <dt>Device ID</dt>
-                            <dd>{device.id}</dd>
-                            <dt>HW Key</dt>
-                            <dd>{device.hwKey}</dd>
+                        <dl className="device-base-info">
+                            <dt className="device-base-info-term">Device ID</dt>
+                            <dd className="device-base-info-def">{device.id}</dd>
+                            <dt className="device-base-info-term">HW Key</dt>
+                            <dd className="device-base-info-def">{device.hwKey}</dd>
                         </dl>
-                        <label>
-                            Immobilizer
-                        <input type="checkbox" checked={device.immobilizer} readOnly />
-                        </label>
-                        <label>
-                            Key in holder
-                        <input type="checkbox" checked={device.keyInHolder} readOnly />
-                        </label>
-                        <label>
-                            Doors
-                        <input type="checkbox" checked={device.doors} readOnly />
-                        </label>
-                        <label>
-                            Fuelcard
-                        <input type="checkbox" checked={device.fuelCard} readOnly />
-                        </label>
-                        <label>
-                            Handbrake
-                        <input type="checkbox" checked={device.handBrake} readOnly />
-                        </label>
-                        <label>
-                            GPS
-                        <input type="checkbox" checked={device.GPS} readOnly />
-                        </label>
-                        <label>
-                            Ignition
-                        <input type="checkbox" checked={device.ignition} readOnly />
-                        </label>
-                        <label>
-                            LTE
-                        <input type="checkbox" checked={device.LTE} readOnly />
-                        </label>
+                        <div className="device-extras">
+                            <label className="device-extra">
+                                <input type="checkbox" checked={device.immobilizer} readOnly />
+                                Immobilizer
+                            </label>
+                            <label className="device-extra">
+                                <input type="checkbox" checked={device.keyInHolder} readOnly />
+                                Key in holder
+                            </label>
+                            <label className="device-extra">
+                                <input type="checkbox" checked={device.doors} readOnly />
+                                Doors
+                            </label>
+                            <label className="device-extra">
+                                <input type="checkbox" checked={device.fuelCard} readOnly />
+                                Fuelcard
+                            </label>
+                            <label className="device-extra">
+                                <input type="checkbox" checked={device.handBrake} readOnly />
+                                Handbrake
+                            </label>
+                            <label className="device-extra">
+                                <input type="checkbox" checked={device.GPS} readOnly />
+                                GPS
+                            </label>
+                            <label className="device-extra">
+                                <input type="checkbox" checked={device.ignition} readOnly />
+                                Ignition
+                            </label>
+                            <label className="device-extra">
+                                <input type="checkbox" checked={device.LTE} readOnly />
+                                LTE
+                            </label>
+                        </div>
                     </div>
                     <div className="readonly-container">
                         <div className="map-container">

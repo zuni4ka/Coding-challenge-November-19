@@ -73,3 +73,23 @@
 .vital-output {
     margin-top: 10px;
 }
+
+.device-base-info-term {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.device-base-info-def {
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+.device-extras {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.device-extra {
+    width: 50%;
+    margin-bottom: 1em;
+}
